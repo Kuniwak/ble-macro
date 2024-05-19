@@ -7,7 +7,7 @@
             <property name="NOTIFY" requirement="MANDATORY"/>
         </assert-characteristic>
     </assert-service>
-    <write description="Write 0x01" characteristic-uuid="cba20003-224d-11e6-9fb8-0002a5d5c51b" servuce-uuid="cba20d00-224d-11e6-9fb8-0002a5d5c51b" value="01" type="WRITE_REQUEST" />
+    <write description="Write 0x01" characteristic-uuid="cba20003-224d-11e6-9fb8-0002a5d5c51b" servuce-uuid="cba20d00-224d-11e6-9fb8-0002a5d5c51b" value="01" type="WRITE_COMMAND" />
     <sleep description="Sleep 500 ms" timeout="500" />
-    <write description="Write 0x570100" characteristic-uuid="cba20002-224d-11e6-9fb8-0002a5d5c51b" servuce-uuid="cba20d00-224d-11e6-9fb8-0002a5d5c51b" value="570100" type="WRITE_REQUEST" />
+    <write description="Write 0x570100" characteristic-uuid="cba20002-224d-11e6-9fb8-0002a5d5c51b" servuce-uuid="cba20d00-224d-11e6-9fb8-0002a5d5c51b" value="570100" type="WRITE_COMMAND" />
 </macro>
