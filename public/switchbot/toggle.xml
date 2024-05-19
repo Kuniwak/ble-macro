@@ -1,15 +1,15 @@
 <macro name="switchbot-toggle" icon="PLAY">
-    <assert-service description="Switchbot" uuid="CBA20D00-224D-11E6-9FB8-0002A5D5C51B">
-        <assert-characteristic description="Toggle" uuid="CBA20002-224D-11E6-9FB8-0002A5D5C51B">
+    <assert-service description="Switchbot" uuid="cba20d00-224d-11e6-9fb8-0002a5d5c51b">
+        <assert-characteristic description="Toggle" uuid="cba20002-224d-11e6-9fb8-0002a5d5c51b">
             <property name="WRITE" requirement="MANDATORY"/>
         </assert-characteristic>
-        <assert-characteristic description="Configuration" uuid="CBA20003-224D-11E6-9FB8-0002A5D5C51B">
+        <assert-characteristic description="Configuration" uuid="cba20003-224d-11e6-9fb8-0002a5d5c51b">
             <property name="NOTIFY" requirement="MANDATORY"/>
         </assert-characteristic>
     </assert-service>
-    <write description="Write 0x01" characteristic-uuid="CBA20003-224D-11E6-9FB8-0002A5D5C51B" servuce-uuid="CBA20D00-224D-11E6-9FB8-0002A5D5C51B" value="01" type="WRITE_REQUEST" />
+    <write description="Write 0x01" characteristic-uuid="cba20003-224d-11e6-9fb8-0002a5d5c51b" servuce-uuid="cba20d00-224d-11e6-9fb8-0002a5d5c51b" value="01" type="WRITE_REQUEST" />
     <sleep description="Sleep 500 ms" timeout="500" />
     <!-- -->
-    <write description="Write 0x5701" characteristic-uuid="CBA20002-224D-11E6-9FB8-0002A5D5C51B" servuce-uuid="CBA20D00-224D-11E6-9FB8-0002A5D5C51B" value="5701" type="WRITE_REQUEST" />
+    <write description="Write 0x5701" characteristic-uuid="cba20002-224d-11e6-9fb8-0002a5d5c51b" servuce-uuid="cba20d00-224d-11e6-9fb8-0002a5d5c51b" value="5701" type="WRITE_REQUEST" />
     <sleep description="Sleep 500 ms" timeout="500" />
 </macro>
