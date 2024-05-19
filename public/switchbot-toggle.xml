@@ -9,6 +9,7 @@
     </assert-service>
     <write description="Write 0x01" characteristic-uuid="CBA20003-224D-11E6-9FB8-0002A5D5C51B" servuce-uuid="CBA20D00-224D-11E6-9FB8-0002A5D5C51B" value="01" type="WRITE_REQUEST" />
     <sleep description="Sleep 500 ms" timeout="500" />
+    <!-- -->
     <write description="Write 0x5701" characteristic-uuid="CBA20002-224D-11E6-9FB8-0002A5D5C51B" servuce-uuid="CBA20D00-224D-11E6-9FB8-0002A5D5C51B" value="5701" type="WRITE_REQUEST" />
     <sleep description="Sleep 500 ms" timeout="500" />
 </macro>
