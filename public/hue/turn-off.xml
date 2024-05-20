@@ -1,0 +1,8 @@
+<macro name="hue-turn-off" icon="LED_OFF">
+    <assert-service description="Hue" uuid="932c32bd-0000-47a2-835a-a8d455b859dd">
+        <assert-characteristic description="Light State" uuid="932c32bd-0002-47a2-835a-a8d455b859dd">
+            <property name="WRITE" requirement="MANDATORY"/>
+        </assert-characteristic>
+    </assert-service>
+    <write description="Turn off" characteristic-uuid="932c32bd-0002-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" value="00" type="WRITE_REQUEST" />
+</macro>
