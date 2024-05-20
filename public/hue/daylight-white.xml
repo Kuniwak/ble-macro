@@ -6,7 +6,7 @@
             <property name="NOTIFY" requirement="MANDATORY"/>
         </assert-characteristic>
     </assert-service>
-    <write-descriptor description="Enable notifications for Light State" characteristic-uuid="932C32BD-0007-47A2-835A-A8D455B859DD" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" uuid="00002902-0000-1000-8000-00805f9b34fb" value="0100" />
-    <write description="Set Light State to Daylight White" characteristic-uuid="932C32BD-0007-47A2-835A-A8D455B859DD" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" value="0101010201FE0302FA0005020100" type="WRITE_REQUEST" />
-    <wait-for-notification description="Wait for notification" characteristic-uuid="932C32BD-0007-47A2-835A-A8D455B859DD" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" timeout="5000"/>
+    <write-descriptor description="Enable notifications for Light State" characteristic-uuid="932c32bd-0007-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" uuid="00002902-0000-1000-8000-00805f9b34fb" value="0100" />
+    <write description="Set Light State to Daylight White" characteristic-uuid="932c32bd-0007-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" value="0101010201fe0302fa0005020100" type="WRITE_REQUEST" />
+    <wait-for-notification description="Wait for notification" characteristic-uuid="932c32bd-0007-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" />
 </macro>
