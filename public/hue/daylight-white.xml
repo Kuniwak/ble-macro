@@ -1,12 +1,12 @@
 <macro name="hue-daylight-white" icon="BRIGHTNESS_HIGH">
     <assert-service description="Hue" uuid="932c32bd-0000-47a2-835a-a8d455b859dd">
-        <assert-characteristic description="Combined" uuid="932c32bd-0007-47a2-835a-a8d455b859dd">
+        <assert-characteristic description="Combined" uuid="932c32bd-0001-47a2-835a-a8d455b859dd">
             <assert-cccd />
             <property name="WRITE" requirement="MANDATORY"/>
             <property name="NOTIFY" requirement="MANDATORY"/>
         </assert-characteristic>
     </assert-service>
-    <write-descriptor description="Enable notifications for Light State" characteristic-uuid="932c32bd-0007-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" uuid="00002902-0000-1000-8000-00805f9b34fb" value="0100" />
-    <write description="Set Light State to Daylight White" characteristic-uuid="932c32bd-0007-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" value="0101010201fe0302fa0005020100" type="WRITE_REQUEST" />
-    <wait-for-notification description="Wait for notification" characteristic-uuid="932c32bd-0007-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" />
+    <write-descriptor description="Enable notifications for Light State" characteristic-uuid="932c32bd-0001-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" uuid="00002902-0000-1000-8000-00805f9b34fb" value="0100" />
+    <write description="Set Light State to Daylight White" characteristic-uuid="932c32bd-0001-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" value="01" type="WRITE_REQUEST" />
+    <wait-for-notification description="Wait for notification" characteristic-uuid="932c32bd-0001-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" />
 </macro>
