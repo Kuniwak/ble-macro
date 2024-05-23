@@ -10,7 +10,7 @@ The URL is like `https://ble-macro.kuniwak.com/<path>`. Available paths are foll
 
 | Path                                                   | Description      |
 |:-------------------------------------------------------|:-----------------|
-| [switchbot/toggle.xml)](./public/switchbot/toggle.xml) | Toggle SwitchBot |
+| [switchbot/toggle.xml](./public/switchbot/toggle.xml) | Toggle SwitchBot |
 
 
 References
