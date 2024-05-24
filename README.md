@@ -12,7 +12,7 @@ The URL is like `https://ble-macro.kuniwak.com/<path>`. Available paths are foll
 | [switchbot/push.xml](./public/switchbot/push.xml)         | Push SwitchBot (confirmed at v6.3)              |
 | [hue/turn-off.xml](./public/hue/turn-off.xml)             | Turn off Philips Hue                            |
 | [hue/daylight-white.xml](./public/hue/daylight-white.xml) | Turn on Philips Hue with "daylight white" scene |
-| [hue/relax.xml](./public/hue/relx.xml)                    | Turn on Philips Hue with "relax" scene          |
+| [hue/relax.xml](./public/hue/relax.xml)                   | Turn on Philips Hue with "relax" scene          |
 
 
 References
