@@ -1,0 +1,8 @@
+<macro name="hue-all-green" icon="BRIGHTNESS_HIGH">
+    <assert-service description="Hue" uuid="932c32bd-0000-47a2-835a-a8d455b859dd">
+        <assert-characteristic description="Combined" uuid="932c32bd-0007-47a2-835a-a8d455b859dd">
+            <property name="WRITE" requirement="MANDATORY"/>
+        </assert-characteristic>
+    </assert-service>
+    <write description="Set to Daylight White" characteristic-uuid="932c32bd-0007-47a2-835a-a8d455b859dd" service-uuid="932c32bd-0000-47a2-835a-a8d455b859dd" value="0101010201fe04047f2b50b205020100" type="WRITE_REQUEST" />
+</macro>
