@@ -9,6 +9,7 @@ The URL is like `https://ble-macro.kuniwak.com/<path>`. Available paths are foll
 
 | Path                                                            | Description                                     |
 |:----------------------------------------------------------------|:------------------------------------------------|
+| [iphone/battery-level.xml](./public/iphone/battery-level.xml)   | Read battery level                              |
 | [switchbot/push.xml](./public/switchbot/push.xml)               | Push SwitchBot (confirmed at v6.3)              |
 | [hue/make-discoverable.xml](./public/hue/make-discoverable.xml) | Make Philips Hue bonding available              |
 | [hue/turn-off.xml](./public/hue/turn-off.xml)                   | Turn off Philips Hue                            |

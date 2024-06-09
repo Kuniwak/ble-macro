@@ -1,0 +1,8 @@
+<macro name="iphone-battery-lebel" icon="BATTERY">
+    <assert-service description="Battery" uuid="0000180f-0000-1000-8000-00805f9b34fb">
+        <assert-characteristic description="Battery Level" uuid="00002a19-0000-1000-8000-00805f9b34fb">
+            <property name="READ" requirement="MANDATORY"/>
+        </assert-characteristic>
+    </assert-service>
+    <read description="Read Battery Level" characteristic-uuid="00002a19-0000-1000-8000-00805f9b34fb" service-uuid="0000180f-0000-1000-8000-00805f9b34fb" />
+</macro>
