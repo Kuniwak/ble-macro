@@ -1,0 +1,8 @@
+<macro name="hue-make-discoverable" icon="BRIGHTNESS_HIGH">
+    <assert-service description="Hue" uuid="0000fe0f-0000-1000-8000-00805f9b34fb">
+        <assert-characteristic description="Make discoverable" uuid="97fe6561-2004-4f62-86e9-b71ee2da3d22">
+            <property name="WRITE" requirement="MANDATORY"/>
+        </assert-characteristic>
+    </assert-service>
+    <write description="Make discoverable" characteristic-uuid="97fe6561-2004-4f62-86e9-b71ee2da3d22" service-uuid="0000fe0f-0000-1000-8000-00805f9b34fb" value="01" type="WRITE_REQUEST" />
+</macro>
